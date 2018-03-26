@@ -1,0 +1,1 @@
+Eres admin, eres guay

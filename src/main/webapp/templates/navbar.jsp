@@ -16,7 +16,11 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="generar-mesa">Comprar mesa</a>
+          <a class="dropdown-item" href="calculadora">Calculadora</a>
         </div>
+      </li>
+      <li>
+      <a class="btn btn-default" href="login">Login</a>
       </li>
     </ul>
   </div>
