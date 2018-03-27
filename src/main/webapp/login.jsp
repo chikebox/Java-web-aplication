@@ -1,10 +1,10 @@
 <jsp:include page="templates/head.jsp"></jsp:include>
 <jsp:include page="templates/navbar.jsp"></jsp:include>
 <%
-	String msg=(String) request.getParameter("message");
-	if(msg!=null){%>
+	String message=(String) request.getAttribute("message");
+	if(message!=null){%>
 		<div class="alert alert-danger" role="alert">
-			<%=msg %>
+			<%=message %>
 		</div>
 	
 	
